@@ -1,0 +1,76 @@
+* {
+    font-family: Nunito, Open Sans, Raleway, Roboto, sans-serif;
+    color: #384047;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: #F4F7F8;
+    display: flex;
+    flex-direction: column;
+    height: 1070px;
+    width: 480px;
+    border-radius: 10px;
+}
+
+.singUp {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+h1 {
+    margin: 0 0 30px 0;
+}
+
+.number {
+    background-color: #5fcf80;
+    color: white;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2)
+}
+
+legend {
+    font-size: 22.4px;
+}
+
+fieldset {
+    border: none;  
+    margin-bottom: 30px;  
+}
+
+.content label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, select {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    margin-bottom: 30px;
+}
+
+input[type="checkbox"] {
+    border-radius: 50%;
+}
