@@ -34,15 +34,63 @@
                     <div class="age">
                         <label for="age">Age: </label>
                         <label for="under13">
-                            <input type="checkbox" id="under13" name="age">
+                            <input type="radio" id="under13" name="age">
                             Under 13
                         </label>
                         <label for="over13">
-                            <input type="checkbox" id="over13" name="age">
+                            <input type="radio" id="over13" name="age">
                             Over 13
                         </label>
                     </div>
                 </fieldset>
+
+                <fieldset>
+                    <legend><span class="number">2 </span> Your Profile</legend>
+                    <div class="bio">
+                        <label for="bio">Bio:</label>
+                        <textarea id="bio" name="bio"></textarea>
+                    </div>
+                    <div class="job">
+                        <label for="job">Job Role:</label>
+                        <select id="job" name="job">
+                            <optgroup label="Web">
+                                <option>Front-End Developer</option>
+                                <option>PHP Developer</option>
+                                <option>Python Developer</option>
+                                <option>Rails Developer</option>
+                                <option>Web Designer</option>
+                                <option>Wordpress Developer</option>
+                            </optgroup>
+                            <optgroup label="Mobile">
+                                <option>Android Developer</option>
+                                <option>IOS Developer</option>
+                                <option>Mobile Designer</option>
+                            </optgroup>
+                            <optgroup label="Business">
+                                <option>Business Owner</option>
+                                <option>Freelancer</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="Interest">
+                        <label for="interest">Interests:</label>
+                        <label for="development">
+                            <input type="checkbox" id="development" name="interest">
+                            Development
+                        </label>
+                        <label for="design">
+                            <input type="checkbox" id="design" name="interest">
+                            Design
+                        </label>
+                        <label for="business">
+                            <input type="checkbox" id="business" name="interest">
+                            Business
+                        </label>
+                    </div>
+                </fieldset>    
+                <div class="button-area">
+                    <button type="submit">Submit</button>
+                </div>
             </div>
         </form>
     </main>
